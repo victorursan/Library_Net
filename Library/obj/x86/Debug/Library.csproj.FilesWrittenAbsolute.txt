@@ -1,0 +1,28 @@
+/Users/victor/University/DBMS/lab2/Library/Library/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/victor/University/DBMS/lab2/Library/Library/bin/Debug/Simplify.Windows.Forms.dll
+/Users/victor/University/DBMS/lab2/Library/Library/bin/Debug/EntityFramework.dll
+/Users/victor/University/DBMS/lab2/Library/Library/bin/Debug/EntityFramework.SqlServer.dll
+/Users/victor/University/DBMS/lab2/Library/Library/bin/Debug/Library.exe.config
+/Users/victor/University/DBMS/lab2/Library/Library/bin/Debug/Library.exe.mdb
+/Users/victor/University/DBMS/lab2/Library/Library/bin/Debug/Library.exe
+/Users/victor/University/DBMS/lab2/Library/Library/obj/x86/Debug/Library.exe
+/Users/victor/University/DBMS/lab2/Library/Library/obj/x86/Debug/Library.exe.mdb
+/Users/victor/Desktop/Library 7.29.02 PM/Library/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/victor/Desktop/Library 7.29.02 PM/Library/bin/Debug/Library.exe.config
+/Users/victor/Desktop/Library 7.29.02 PM/Library/bin/Debug/Library.exe.mdb
+/Users/victor/Desktop/Library 7.29.02 PM/Library/bin/Debug/Library.exe
+/Users/victor/Desktop/Library 7.29.02 PM/Library/obj/x86/Debug/Library.exe
+/Users/victor/Desktop/Library 7.29.02 PM/Library/obj/x86/Debug/Library.exe.mdb
+/Users/victor/Desktop/Library 7.29.02 PM/Library/bin/Debug/Simplify.Windows.Forms.dll
+/Users/victor/Desktop/Library 7.29.02 PM/Library/bin/Debug/EntityFramework.dll
+/Users/victor/Desktop/Library 7.29.02 PM/Library/bin/Debug/EntityFramework.SqlServer.dll
+/Users/victor/University/DBMS/Labs/lab3/Library/Library/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/victor/University/DBMS/Labs/lab3/Library/Library/obj/x86/Debug/Library.exe
+/Users/victor/University/DBMS/Labs/lab3/Library/Library/obj/x86/Debug/Library.exe.mdb
+/Users/victor/University/DBMS/Labs/lab3/Library/Library/bin/Debug/Simplify.Windows.Forms.dll
+/Users/victor/University/DBMS/Labs/lab3/Library/Library/bin/Debug/EntityFramework.dll
+/Users/victor/University/DBMS/Labs/lab3/Library/Library/bin/Debug/EntityFramework.SqlServer.dll
+/Users/victor/University/DBMS/Labs/lab3/Library/Library/bin/Debug/Library.exe.config
+/Users/victor/University/DBMS/Labs/lab3/Library/Library/bin/Debug/Library.exe.mdb
+/Users/victor/University/DBMS/Labs/lab3/Library/Library/bin/Debug/Library.exe
+/Users/victor/University/DBMS/Labs/lab3/Library/Library/bin/Debug/C5.dll

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<Data>
+	<ConnectionString>Data Source=192.168.50.4,1433; Network Library=DBMSSOCN; Initial Catalog=Library;User ID=sa; Password=x1XoUDT6Pny3iuduzOaY;</ConnectionString>
+
+
+	<InsertChild>INSERT INTO Book (ISBN, Title, PublisherId, Description) VALUES (@ISBN, @Title, @PublisherId, @Description)</InsertChild>
+	<SelectChild>SELECT * FROM Book WHERE PublisherId=@PublisherId</SelectChild>
+	<DeleteChild>DELETE FROM Book WHERE ISBN = @ISBN AND Title = @Title AND PublisherId = @PublisherId AND Description = @Description</DeleteChild>
+	<UpdateChild>UPDATE Book SET Title = @Title, PublisherId = @PublisherId, Description = @Description WHERE ISBN = @ISBN</UpdateChild>
+
+	<SelectParent>SELECT * FROM Publisher</SelectParent>
+
+	<parameters>
+		<parameter>
+			<name>ISBN</name>
+			<type>BigInt</type>
+		</parameter>
+		<parameter>
+			<name>Title</name>
+			<type>NVarChar</type>
+		</parameter>
+		<parameter>
+			<name>PublisherId</name>
+			<type>BigInt</type>
+		</parameter>
+		<parameter>
+			<name>Description</name>
+			<type>NVarChar</type>
+		</parameter>
+	</parameters>
+
+	<ConnectionParameter>PublisherId</ConnectionParameter>
+
+</Data>
+
+
+<!--	<InsertChild>INSERT INTO Loan (LoanId, CreatedOn, DueDate, EmployeeId, MemberId) VALUES (@LoanId, @CreatedOn, @DueDate, @EmployeeId, @MemberId)</InsertChild>
+	<SelectChild>SELECT * FROM Loan WHERE MemberId = @MemberId</SelectChild>
+	<DeleteChild>DELETE FROM Loan WHERE LoanId = @LoanId AND CreatedOn = @CreatedOn AND DueDate = @DueDate AND EmployeeId = @EmployeeId AND MemberId = @MemberId</DeleteChild>
+	<UpdateChild>UPDATE Loan SET  LoanId = @LoanId, CreatedOn = @CreatedOn, DueDate = @DueDate, EmployeeId = @EmployeeId WHERE MemberId = @MemberId</UpdateChild>
+
+	<SelectParent>SELECT * FROM Member</SelectParent>
+
+	<parameters>
+		<parameter>
+			<name>LoanId</name>
+			<type>int</type>
+		</parameter>
+		<parameter>
+			<name>CreatedOn</name>
+			<type>date</type>
+		</parameter>
+		<parameter>
+			<name>DueDate</name>
+			<type>date</type>
+		</parameter>
+		<parameter>
+			<name>EmployeeId</name>
+			<type>int</type>
+		</parameter>
+		<parameter>
+			<name>MemberId</name>
+			<type>int</type>
+		</parameter>
+	</parameters>
+
+	<ConnectionParameter>MemberId</ConnectionParameter>-->
